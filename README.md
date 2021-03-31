@@ -1,5 +1,5 @@
-# Font Repo
-Font Repo is a repository of fonts that are used across all ZORA agents in their
+# Fonts
+Fonts is a repository of fonts that are used across all ZORA agents in their
 offline computing system. The selection of fonts are opinionated and are sourced
 from open licensed stores like [Google Font](https://fonts.google.com/).
 
