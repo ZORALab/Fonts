@@ -1,4 +1,4 @@
-1[icon](icon-master.svg)
+![icon](icon.png)
 
 # Fonts
 Fonts is a repository of fonts that are used across all ZORA agents in their
