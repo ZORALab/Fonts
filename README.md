@@ -1,3 +1,5 @@
+1[icon](icon-master.svg)
+
 # Fonts
 Fonts is a repository of fonts that are used across all ZORA agents in their
 offline computing system. The selection of fonts are opinionated and are sourced
