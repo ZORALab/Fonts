@@ -1,37 +1,32 @@
-![banner](artworks/logo/default-1200x628.svg)
+![banner](.src/logos/zoralab-fonts_1200x340.svg)
 
-# ZORALab's Usable Fonts Repository
-This ZORALab's Usable Fonts repository is for making it easy for our clients to
-source the original materials used in our generated artworks or projects. These
-fonts are selected in an opinionated and are **strictly selected from Open Font
-Licensed stores with re-distributable license** like
+# ZORALab's Fonts
+This fonts repository is the ZORALab's deployable fonts that are friendly for
+public use with the following business goals:
+
+1. **Making It Easy for Our Clients** - for modifications, deployment, and etc.
+2. **Vetted & Reusable Efforts** - all the fonts here are vetted for
+*Open Font Licenses stores with re-distributable license* like
 [Google Font](https://fonts.google.com/).
+3. **Easier to Scale Among ZORALab Members** - get to work without worrying
+about glyphs and font availabilities.
 
 
 
 
-## Why Such Repository
-In short, we want a single common font library to ease our local and remote use
-(rather than depending on single source of network as a primary supply chain).
-Hence, instead of having everyone create their own set of fonts, we consolidate
-them into a company-wide version, allowing everyone to have access to all fonts
-used by the team or the client.
+# To Use
+Simply `git clone` the repository to your operating system's fonts specific
+folders (e.g. Debian is `${HOME}/.fonts` directory) and then execute the
+`refresh.sh.ps1` script is sufficient.
 
-We tried to use the [Google Fonts](https://www.github.com/googlefonts/)
-repository but ended up downloading a very large repo instead. Hence, that's
-another reason for us to select required fonts from it.
-
-Another good reason is anyone on Debian can just download the repository and
-deploy easily into `$HOME/.fonts` directory and then execute:
-
-```bash
+```
 $ fc-cache
 ```
 
 
 
 
-## Selection of Fonts
+## Font Selection
 The fonts are primarily selected based on the type of projects we engaged in.
 Usually, the selected fonts are used for:
 
