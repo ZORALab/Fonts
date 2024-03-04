@@ -1,21 +1,78 @@
 #####################
 # User defined
 #####################
-.uuid
-
 
 #####################
 # Standard FHS
 #####################
-bin
-tmp
-release
-public
+vendor/
+output/
+/releases/
+!/*/releases/
+
+#####################
+# ZORALab's Monteur
+#####################
+/.monteurFS/
+/.configs/montuer/secrets/
+.bin/
+
+#####################
+# AutomataCI
+#####################
+/SECRETS.toml
+/bin
+/tools
+/tmp
+/log
+/build
+/pkg
+/releases
+/resources/changelog/*/.*
+
+#####################
+# Angular
+#####################
+/out-tsc
+/bazel-out
+cache/
+coverage/
+dist/
+.sass-cache/
+connect.lock
+libpeerconnection.log
+testem.log
+typings
+
+#####################
+# LibreOffice
+#####################
+.~lock*
+
+#####################
+# Python
+#####################
+venv/
+__pycache__
+.coverage
+
+#####################
+# Rust
+#####################
+target/
+*.profraw
 
 #####################
 # Hugo
 #####################
-_gen
+themes/
+public/
+.hugo_build.lock
+
+#####################
+# LetsEncrypt
+#####################
+certbot.log
 
 #####################
 # Android Studio
@@ -23,7 +80,7 @@ _gen
 /build
 
 #####################
-# vim specifics
+# vim
 #####################
 4913
 *.swp
@@ -34,14 +91,48 @@ _gen
 *.d
 !*.d/
 *.o
+*.a
+*.dll
+*.exe
 *.elf
 *.hex
 *.bin
 
 #####################
-# Mac specifics
+# Node
+#####################
+node_modules
+npm-debug.log
+yarn-error.log
+
+#####################
+# Databases
+#####################
+*.db
+
+#####################
+# SQLite
+#####################
+*.sqlite3
+*.sqlite
+*.sqlite-journal
+*.db-journal
+
+#####################
+# GitHub
+#####################
+gh-pages/
+
+#####################
+# Logs
+#####################
+*.log
+
+#####################
+# MacOS specifics
 #####################
 .DS_Store
+Thumbs.db
 
 #####################
 # AWS CLI credential blobs
@@ -91,6 +182,7 @@ id_ecdsa
 #####################
 *.pem
 *.key
+*.crt
 
 #####################
 # Any file ending with _history or .history extension
