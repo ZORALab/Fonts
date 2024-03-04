@@ -8,6 +8,10 @@ onto it.
 To contribute, see github.com/NDISCOVER/Cinzel.
 
 
+The font is downloaded from:
+https://fonts.google.com/specimen/Cinzel/
+
+
 
 
 ## Designer

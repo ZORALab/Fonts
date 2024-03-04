@@ -21,6 +21,10 @@ The Bungee project is led by David Jonathan Ross, a type designer based in the
 USA. To contribute, see github.com/djrrb/Bungee
 
 
+The font is downloaded from:
+https://fonts.google.com/specimen/Bungee+Hairline/
+
+
 
 
 ## Designer
