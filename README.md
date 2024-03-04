@@ -1,4 +1,4 @@
-![banner](.src/logos/zoralab-fonts_1200x340.svg)
+[![banner](.src/logos/zoralab-fonts_1200x340.svg)](https://github.com/ZORALab/Fonts)
 
 # ZORALab's Fonts
 This fonts repository is the ZORALab's deployable fonts that are friendly for
@@ -14,31 +14,40 @@ about glyphs and font availabilities.
 
 
 
-# To Use
+## To Use
+
 Simply `git clone` the repository to your operating system's fonts specific
 folders (e.g. Debian is `${HOME}/.fonts` directory) and then execute the
-`refresh.sh.ps1` script is sufficient.
+`update.sh.ps1` script is sufficient.
+
+## Linux & MacOS
+
+The usual commands are:
 
 ```
-$ fc-cache
+$ cd ~ && git clone https://github.com/ZORALab/Fonts.git .fonts
+$ ./update.sh.ps1
 ```
+
+## Windows
+
+Double click the font you want and install it into your OS.
 
 
 
 
 ## Font Selection
-The fonts are primarily selected based on the type of projects we engaged in.
-Usually, the selected fonts are used for:
 
-1. License compliances
-  1. Free for commerical and non-commerical use.
-  2. Re-distributable as per se.
-  3. Attribution to original authors.
-  4. Clear license file in case of legal dispute.
-2. Graphic design work
-  1. Used in any of our graphics project.
-3. Video processing (design and presentation)
-  1. Used in any of our videos project.
+The fonts are primarily selected based on the type of projects we engaged in.
+Usually, the selected fonts are:
+
+1. License complying to free (pricing and freedom) for both commerical and
+   non-commerical use.
+2. Lincese **MUST** have unrestricted re-distributable rights as per se.
+3. Attributable to original authors.
+4. Clear license file in case of legal dispute.
+5. Suitable for most graphic design works.
+6. Video processing (design and presentation).
 
 Our documentations are primarily and strictly using Noto Family (sans, mono, and
 serif). It is rare to see us use other fonts for work and coding purposes.
