@@ -13,5 +13,4 @@ https://fonts.google.com/specimen/ZCOOL+QingKe+HuangYou
 
 
 ## Designer
-1. ZCOOL - Principal Design
-2. Zheng Qingke
+1. Zheng Qingke - Principal Design
