@@ -15,4 +15,4 @@ https://fonts.google.com/specimen/Bruno+Ace/
 
 
 ## Designer
-1. David Jonathan Ross - Principal Design
+1. Astigmatic - Principal Design
