@@ -32,7 +32,27 @@ echo \" <<'RUN_AS_POWERSHELL' >/dev/null # " | Out-Null
 ################################################################################
 # Windows POWERSHELL Codes                                                     #
 ################################################################################
-Write-Host "Hi! Please double click the font for installation. TQ"
+$Source = $PWD
+$Destination = "C:\Windows\Fonts"
+
+
+# Get the list from source files
+$___list = Get-ChildItem -Path $Source -Include ('*.ttf', '*.woff', '*.otf', '*.ttc') -Recurse
+foreach ($___file in $___list) {
+	$___dest = "${Destination}\$($___file.Name)"
+	if (-not (Test-Path -Path "${___dest}")) {
+		# copy the font file and install in.
+		Copy-Item -Path $___file.FullName -Destination "${___dest}"
+
+		# register the font for all users
+		New-ItemProperty `
+			-Path "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Fonts" `
+			-Name $___file.BaseName `
+			-PropertyType String `
+			-Value $___file.Name `
+			-Force
+	}
+}
 ################################################################################
 # Windows POWERSHELL Codes                                                     #
 ################################################################################

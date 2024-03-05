@@ -33,10 +33,10 @@ jobs:
         run: |
           git config --global user.email "github.actions.runner@github.com"
           git config --global user.name "Github Action Automated Runner"
-      - name: Execute placeholder
-        id: native_ci_placeholder
+      - name: Execute Update Shell Script
+        id: native_ci_update_shell
         run: |
-          echo "hello world!\n"
+          ./update.sh.ps1
       - name: Archive Payloads Artifacts
         if: always()
         uses: actions/upload-artifact@v3
