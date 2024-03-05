@@ -13,7 +13,7 @@ about glyphs and font availabilities.
 
 
 
-## To Use
+## To Install
 
 Simply `git clone` the repository to your operating system's fonts specific
 folders and then execute the `update.sh.ps1` script is suffice. To roll in
@@ -63,8 +63,75 @@ $ powershell.exe -noprofile -executionpolicy bypass -file .\update.sh.ps1
 To update the repo from time to time, please enter the font repo and `git pull`:
 
 ```
-$ cd .\zoralab && git pull
+$ cd .\zoralab
+$ git pull
 ```
+
+
+
+
+## To Use
+
+Although the repository is set for automated font installation, there are some
+basics you need to learn before selecting a font for an art deployment. Before
+selecting a font for you next piece of art, you should always refer back to
+the font origin here and study its intended design purpose for avoiding
+akward outcome.
+
+
+
+### Display Type
+
+The `display` (`display/` directory) type fonts are usually
+**designed for title and heading for attention grabbing**. They are not
+suitable for paragraphing so you may want to avoid that kind of usage unless
+otherwise specified by the designer.
+
+In this repository, display type maintains the glyph spacing without going into
+overly abstractive styling.
+
+
+
+### Handwriting
+
+The `handwriting` (`handwriting/` directory) type fonts are fancy & abstractive
+handwriting **designed for passive art usage like background glyphs and etc**.
+Obviously, they are way unsuitable for reading.
+
+
+
+### Monospace
+
+The `monospace` (`monospace/` directory) type fonts are **space aware glyphs
+designed for plain and raw presentation (e.g. programming codes)**. It consumes
+a lot of spacing and tends to be akwards when used at large like paragraphing.
+
+
+
+### Sans Serif
+
+The `Sans Serif` (`sans-serif/` directory) is a **modern organized font
+without serif "tails"** (e.g. Those `Times New Roman` style) designed for
+**both attention grabbing or conventional paragraphing**. Sans Serif
+usually tends to **give modern, technological, and refreshing aura**.
+
+
+
+### Serif
+
+The `Serif` (`serif/` directory) is a **classical font with "tails"** similar to
+`Times New Roman` kind of font **designed for both attention
+grabbing or conventional paragraphing**. Unlike Sans Serif, Serif
+**gives legacy and authoritive aura**.
+
+
+
+### Scanner
+
+The `Scanners` (`scanners/` directory) is a technologically functional font
+**designed for specific functions like QR codes or Bar codes**. You should only
+use the fonts here for technological function (usually comes with some kind of
+scanner tool like Barcode scanner).
 
 
 
