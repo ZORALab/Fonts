@@ -10,6 +10,17 @@ public use with the following business goals:
 3. **Easier to Scale Among ZORALab Members** - get to work without worrying
 about glyphs and font availabilities.
 
+> [!IMPORTANT]
+>
+> Due to ZORALab's cease of operations, this repository is no longer maintained
+> and is transferred to [Holloway's Fonts](https://github.com/ChewKeanHo/LIBS_Fonts)
+> for future development and maintenance.
+>
+> The repository is now archived. If you wish to use an updated and maintainable
+> versions, please use the repository linked above.
+>
+> Thank you for patronizing.
+
 
 
 
